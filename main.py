@@ -11,7 +11,7 @@ if os.path.exists(num_file):
 else:
     num = 1
 
-for i in range(36):
+for i in range(35):
     os.system("git add .")
     os.system(f'git commit -m "Run code-{num}"')
     os.system("git push")
